@@ -43,6 +43,7 @@ a:hover {
 
 header {
     background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
 }
 
 /* Navigation */
@@ -71,15 +72,18 @@ nav ul li {
     background: url(../img/bridge_1.jpg) fixed;
 }
 
-.hello div:first-of-type {
+.hello div {
     background-image: url(../img/beans_icon.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
 
 /* Section menu */
 
 #menu {
     text-align: center;
-    background-image: url(../img/);
+    background-image: url(../img/cake_icon.png);
+    background-repeat: no-repeat;
 }
 
 #menu div div {
@@ -96,9 +100,84 @@ nav ul li {
 
 /* Section Story */
 
+#story {
+    background-color: #fff;
+
+}
+
+#story div {
+    display: inline-block;
+    width: 30%;
+    /* vertical-align: middle; */
+}
+
+#story div h2 {
+    display: block;
+    padding-bottom: 10px;
+    /* vertical-align: middle; */
+}
+
+#story div p {
+    display: block;
+    /* vertical-align: middle; */
+}
+
+#story img {
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+
 /* Section Catering */
 
+#catering div {
+    display: inline-block;
+    width: 30%;
+    /* vertical-align: middle; */
+}
+
+#catering div h2 {
+    display: block;
+    padding-bottom: 10px;
+    /* vertical-align: middle; */
+}
+
+#catering div p {
+    display: block;
+    /* vertical-align: middle; */
+}
+
+#catering img {
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+
 /* Section Cakes */
+
+#cakes div {
+    display: inline-block;
+    width: 30%;
+    /* vertical-align: middle; */
+}
+
+#cakes div h2 {
+    display: block;
+    padding-bottom: 10px;
+    /* vertical-align: middle; */
+}
+
+#cakes div p {
+    display: block;
+    /* vertical-align: middle; */
+}
+
+#cakes img {
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+
+#cakes button {
+    margin-top: 10px;
+}
 
 /* Footer */
 
