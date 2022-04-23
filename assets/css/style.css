@@ -1,0 +1,125 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Special+Elite&display=swap');
+
+/* Colors */
+/* Farbe: #000, #fff; */
+
+/* Generally */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Special Elite";
+    color: #000;
+}
+
+h2, h3, h4 {
+    font-family: "Exo";
+    font-weight: bold;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.little_img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Header */
+
+header {
+    background-image: url(../img/bg.jpeg);
+}
+
+/* Navigation */
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 20px;
+    position: fixed;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+/* Section Hello/start */
+
+.hello {
+    background: url(../img/bridge_1.jpg) fixed;
+}
+
+.hello div:first-of-type {
+    background-image: url(../img/beans_icon.png);
+}
+
+/* Section menu */
+
+#menu {
+    text-align: center;
+    background-image: url(../img/);
+}
+
+#menu div div {
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #000;
+}
+
+#menu h3 {
+    padding-bottom: 10px;
+}
+
+/* Section Story */
+
+/* Section Catering */
+
+/* Section Cakes */
+
+/* Footer */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+footer h3 {
+    padding-bottom: 10px;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+footer p:last-of-type {
+    font-family: "Exo";
+    color: yellow;
+}
