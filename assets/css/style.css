@@ -23,6 +23,14 @@ h2, h3, h4 {
     padding-bottom: 10px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 a {
     color: #000;
     text-decoration: none;
@@ -111,7 +119,7 @@ nav ul li {
 
 #menu {
     text-align: center;
-    height: 70vh;
+    height: 100vh;
     background-image: url(../img/bridge_2.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -135,16 +143,20 @@ nav ul li {
     border: 1px solid #000;
 }
 
+#menu h2 {
+    padding-top: 40px;
+}
+
 #menu h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* Section Story */
 
 #story {
     text-align: center;
-    height: 50vh;
+    height: 65vh;
     background-color: red;
     background-image: url(../img/bridge_3.jpg);
     background-repeat: no-repeat;
@@ -165,14 +177,15 @@ nav ul li {
 #story div {
     background-color: #fff;
     display: inline-block;
-    width: 30%;
-    height: 30vh;
-    vertical-align: bottom;
+    padding-top: 20px;
+    width: 20%;
+    /* height: 40vh; */
     padding-right: 2%;
 }
 
 #story div h2 {
     display: block;
+    text-align: left;
     padding-bottom: 10px;
 }
 
@@ -183,13 +196,12 @@ nav ul li {
 
 #story img {
     display: inline-block;
-    vertical-align: bottom;
 }
 
 /* Section Catering */
 
 #catering {
-    height: 60vh;
+    height: 65vh;
     background-image: url(../img/bridge_4.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,7 +227,9 @@ nav ul li {
 
 #catering div {
     display: inline-block;
+    text-align: left;
     width: 30%;
+    padding-top: 20px;
     padding-left: 2%;
 }
 
@@ -236,6 +250,7 @@ nav ul li {
 
 #catering a {
     margin-top: 10px;
+    padding: 5px 2px;
     border: 1px solid #000;
 }
 
@@ -258,9 +273,6 @@ nav ul li {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 2%;
-}
-
-#cakes p {
     text-align: left;
 }
 
