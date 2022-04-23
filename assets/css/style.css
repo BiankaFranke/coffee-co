@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -19,6 +20,7 @@ html {
 h2, h3, h4 {
     font-family: "Exo";
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 a {
@@ -39,10 +41,17 @@ a:hover {
     height: 200px;
 }
 
+button {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 2px 2px;
+}
+
 /* Header */
 
 header {
     background-image: url(../img/bg.jpeg);
+    /* background-size: 100%; */
     background-repeat: no-repeat;
 }
 
@@ -69,21 +78,41 @@ nav ul li {
 /* Section Hello/start */
 
 .hello {
-    background: url(../img/bridge_1.jpg) fixed;
+    vertical-align: middle;
 }
 
+
+
 .hello div {
-    background-image: url(../img/beans_icon.png);
-    background-repeat: no-repeat;
+    height: 400px;
     background-color: #fff;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 60%;
+    padding-bottom: 30px;
+    background-image: url(../img/beans_icon.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.hello p {
+    text-align: left;
+}
+
+.hello p:first-of-type{
+    padding-bottom: 15px;
 }
 
 /* Section menu */
 
 #menu {
     text-align: center;
-    background-image: url(../img/cake_icon.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-image: url(../img/cake_icon.png);
 }
 
 #menu div div {
@@ -101,78 +130,123 @@ nav ul li {
 /* Section Story */
 
 #story {
-    background-color: #fff;
+    background-image: url(../img/bridge_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #fff; */
+    text-align: center;
+}
 
+#story p {
+    text-align: left;
 }
 
 #story div {
     display: inline-block;
     width: 30%;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+    padding-right: 2%;
 }
 
 #story div h2 {
     display: block;
     padding-bottom: 10px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #story div p {
     display: block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+    padding-bottom: 15px;
 }
 
 #story img {
     display: inline-block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 /* Section Catering */
 
+#catering {
+    background-image: url(../img/pie_icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+#catering p {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
 #catering div {
     display: inline-block;
     width: 30%;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+    padding-left: 2%;
 }
 
 #catering div h2 {
     display: block;
     padding-bottom: 10px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #catering div p {
     display: block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #catering img {
     display: inline-block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+}
+
+#catering button {
+    margin-top: 10px;
 }
 
 /* Section Cakes */
 
+#cakes {
+    background-image: url(../img/muffin_icon.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: middle;
+}
+
 #cakes div {
     display: inline-block;
     width: 30%;
-    /* vertical-align: middle; */
+    vertical-align: middle;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    vertical-align: middle;
+}
+
+#cakes p {
+    text-align: left;
 }
 
 #cakes div h2 {
     display: block;
     padding-bottom: 10px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #cakes div p {
     display: block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #cakes img {
     display: inline-block;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #cakes button {
@@ -193,12 +267,15 @@ footer h3 {
     padding-bottom: 10px;
 }
 
-footer img {
+footer li {
+    list-style: none;
+}
+
+footer ul li img:nth-of-type(1), footer ul li img:nth-of-type(2)  {
     width: 20px;
     height: 20px;
 }
 
-footer p:last-of-type {
-    font-family: "Exo";
-    color: yellow;
+footer ul li img:nth-of-type(3)  {
+    width:300px;
 }
