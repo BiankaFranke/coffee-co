@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Exo&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Special+Elite&display=swap');
 
 /* Colors */
 /* Farbe: #000, #fff; */
@@ -51,8 +51,13 @@ button {
 
 header {
     background-image: url(../img/bg.jpeg);
-    /* background-size: 100%; */
+    background-size: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
+}
+
+header img {
+    padding-top: 45vh;
 }
 
 /* Navigation */
@@ -79,12 +84,15 @@ nav ul li {
 
 .hello {
     vertical-align: middle;
+    height: 50vh;
+    background-image: url(../img/bridge_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-
-
 .hello div {
-    height: 400px;
+    height: 40vh;
     background-color: #fff;
     padding-top: 30px;
     padding-left: 5%;
@@ -94,7 +102,7 @@ nav ul li {
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .hello p {
@@ -109,21 +117,36 @@ nav ul li {
 
 #menu {
     text-align: center;
+    /* height: 50vh; */
+    /* background-image: url(../img/bridge_2.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
     background-image: url(../img/cake_icon.png);
 }
 
+/* #menu article {
+    height: 40vh;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-image: url(../img/cake_icon.png);
+} */
+
 #menu div div {
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #000;
 }
 
 #menu h3 {
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -171,8 +194,9 @@ nav ul li {
     background-image: url(../img/pie_icon.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
-    /* background-color: blue; */
+    background-position: right center;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
 }
 
@@ -213,7 +237,7 @@ nav ul li {
 #cakes {
     background-image: url(../img/muffin_icon.png);
     background-size: contain;
-    background-position: left;
+    background-position: left center;
     background-repeat: no-repeat;
     text-align: center;
     vertical-align: middle;
